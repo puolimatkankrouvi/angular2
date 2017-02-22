@@ -1,7 +1,7 @@
 # Angular2
 
-Tehtävälista, johon voi lisätä tehtäviä Add-painiketta painamalla
-tehtyjä tehtäviä voi yliviivata.
+Tehtävälista, johon voi lisätä tehtäviä Add-painiketta painamalla.
+Jo tehtyjä tehtäviä voi yliviivata.
 
 
 
