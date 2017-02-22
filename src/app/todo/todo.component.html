@@ -1,0 +1,8 @@
+<div
+  [class.is-done] ="task.done"
+  [class.hovered] = "task.hovered"
+  (click)="task.done ? task.done=false : task.done=true"
+  (mouseenter)= "task.hovered = true"
+(mouseleave)= "task.hovered = false">
+  {{index + 1}}: {{task.name}} (done: {{task.done ? 'Yes' : 'No' }})
+</div>

@@ -1,0 +1,8 @@
+<app-todo
+  *ngFor = "let task of items; let i = index;"
+  [task] = "task"
+  [index] = "i">
+</app-todo>
+
+Name:<input [(ngModel)]="name"/>
+<button (click)="addItem()" [disabled]="name.length == 0" >Add</button>
